@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <p>Rock Paper Scissors!</p>
+    <button onclick="playGame()">Play!</button>
+    
+    <script>
+        let randNum = Math.floor(Math.random() * (4 - 1) + 1);
+        
+        function getComputerChoice() {
+            if (randNum == 1) {
+                return 'Rock';
+            } else if (randNum == 2) {
+                return 'Paper';
+            } else if (randNum == 3) {
+                return 'Scissors'
+            } else {
+                return 'Error'
+            }
+        }
+
+        
+
+
+    </script>
+</body>
+</html>
