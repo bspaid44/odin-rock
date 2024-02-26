@@ -11,9 +11,9 @@ function getComputerChoice() {
     }
 }
 
-var tied = 0;
-var won = 0;
-var lost = 0;
+let tied = 0;
+let won = 0;
+let lost = 0;
 
 function playGameOnce() {
     let computerChoice = getComputerChoice();
